@@ -16,7 +16,6 @@ function UseCase() {
             <UsecasePhoto1 />
           </div>
         </div>
-
         <Usecase2 />
 
         <div>
