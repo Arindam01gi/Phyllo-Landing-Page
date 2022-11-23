@@ -11,21 +11,20 @@ function UseCase() {
           <h1 className="font-bold text-4xl text-center">Use cases</h1>
         </div>
         <div className=" grid lg:mt-56 self-stretch mt-12 auto-cols-fr lg:gap-x-28 lg:gap-y-28 ">
-        <div className=" grid grid-cols-1 lg:gap-x-10 lg:gap-y-10 items-center auto-cols-fr flex-row">
-          <Usecase1 />
-          <UsecasePhoto1 />
+          <div className=" grid grid-cols-1 lg:gap-x-10 lg:gap-y-10 items-center auto-cols-fr flex-row">
+            <Usecase1 />
+            <UsecasePhoto1 />
           </div>
         </div>
-       
-          <Usecase2 />
-        
-     
+
+        <Usecase2 />
+
         <div>
           <div className="md:flex space-x-2 justify-around lg:ml-12 ml-0 self-stretch">
-            <div >
+            <div>
               <h1 className="text-3xl  ml-16  mr-28 lg:mr-0 lg:mt-36 lg:ml-28 font-bold">
-                <span className="text-blue-600">Deep dive</span> into
-                engagement metrics
+                <span className="text-blue-600">Deep dive</span> into engagement
+                metrics
               </h1>
               <p className="ml-16 lg:ml-28 mt-4 text-left">
                 Get data about audience demographics such as age, gender or
