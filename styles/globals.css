@@ -52,6 +52,17 @@ a {
   height: 100%;
   color: white;
 }
+.home-hero-wrap{
+  
+  
+  -webkit-box-align: center;
+  align-items: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
 
 @media (prefers-color-scheme: white) {
   html {

@@ -6,15 +6,14 @@ import UsecasePhoto1 from "./usecases/UsecasePhoto1";
 function UseCase() {
   return (
     <div>
-      <div className="flex flex-col">
+      <div className="flex flex-col items-center">
         <div className="pt-28 lg:pt-36 lg:pb-12 ">
           <h1 className="font-bold text-4xl text-center">Use cases</h1>
         </div>
-        <div className=" grid lg:mt-56 self-stretch mt-12 auto-cols-fr lg:gap-x-28 lg:gap-y-28 ">
-          <div className=" grid grid-cols-1 lg:gap-x-10 lg:gap-y-10 items-center auto-cols-fr flex-row">
+        <div className="grid lg:mt-56 self-stretch mt-12 auto-cols-fr lg:gap-x-28 lg:gap-y-28 ">
             <Usecase1 />
-            <UsecasePhoto1 />
-          </div>
+           
+          
         </div>
         <Usecase2 />
 
