@@ -1,23 +1,25 @@
 import Image from "next/image";
 import Usecase1 from "./usecases/Usecase1";
 import Usecase2 from "./usecases/Usecase2";
-import UsecasePhoto1 from "./usecases/UsecasePhoto1";
+import Usecase3 from "./usecases/Usecase3";
+
 
 function UseCase() {
   return (
     <div>
       <div className="flex flex-col items-center">
-        <div className="pt-28 lg:pt-36 lg:pb-12 ">
+        <div className="pt-28 lg:pt-36 lg:pb-0 ">
           <h1 className="font-bold text-4xl text-center">Use cases</h1>
         </div>
-        <div className="grid lg:mt-56 self-stretch mt-12 auto-cols-fr lg:gap-x-28 lg:gap-y-28 ">
+        <div className="use-case-grid mb-12">
             <Usecase1 />
-           
+            <Usecase2 />
+           <Usecase3 />
           
         </div>
-        <Usecase2 />
+       
 
-        <div>
+        {/* <div>
           <div className="md:flex space-x-2 justify-around lg:ml-12 ml-0 self-stretch">
             <div>
               <h1 className="text-3xl  ml-16  mr-28 lg:mr-0 lg:mt-36 lg:ml-28 font-bold">
@@ -40,7 +42,7 @@ function UseCase() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

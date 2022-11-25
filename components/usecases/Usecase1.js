@@ -2,8 +2,8 @@ import Image from "next/image";
 
 function Usecase1(){
     return (
-        <div className="grid grid-cols-1 lg:gap-x-10 lg:gap-y-10 items-center auto-cols-fr relative">
-        <div className=" relative">
+        <div className="use-case-block">
+        <div className=" relative  lg:ml-12 lg:mr-16">
       
             <h3 className="text-4xl mt-16 lg:mt-36 lg:ml-28 ml-12 m-4 font-bold ">
               <span className="text-blue-600 ">Identity</span> and Account
@@ -15,9 +15,9 @@ function Usecase1(){
             </p>
           </div>
          
-          <div className=" mr-28 relative">
+          <div className=" mt-24 mb-24 mr-24 relative">
             <Image
-              className="w-full ml-12  mr-28 inline-block h-auto align-middle rounded-3xl relative overflow-hidden mt-12 shadow-2xl"
+              className="w-4/5 ml-12  mr-28 inline-block h-auto align-middle rounded-3xl relative overflow-hidden mt-12 shadow-2xl"
               src="/humanbig.png"
               width={1563}
               height={1170}

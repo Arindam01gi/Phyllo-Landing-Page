@@ -4,10 +4,10 @@ import Button2 from "./buttons/Button2";
 
 function Navbar() {
   return (
-    <nav className="realtive  mx-auto p-6 sticky top-0 z-50 bg-white">
-      <div className="flex items-center justify-between">
-        <div className=" logo pt-1 lg:pt-4 flex flex-shrink-0 lg:ml-56 ">
-          <Image src="/logo.svg" width={110} height={77} />
+    <nav className="realtive flex mx-auto lg:p-4  sticky top-0 z-50 bg-white">
+      <div className="flex items-center space-between ">
+        <div className=" logo pt-1 lg:pt-4 flex flex-shrink-0 lg:ml-56 ml-8 ">
+          <Image className="w-11/12 h-auto " src="/logo.svg" width={127} height={31} />
         </div>
         <div className="navbar hidden md:flex space-x-6 ml-6 mt-3">
           <h2>Products</h2>
@@ -18,7 +18,7 @@ function Navbar() {
         </div>
       
 
-        <div className="pt-3">
+        <div className="pt-3 ml-12">
           <div className="flex invisible lg:visible">
             <Button1 />
             <Button2 />
