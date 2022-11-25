@@ -12,7 +12,7 @@ function Section4(){
                 </h2>
              </div>
 
-             <div className="slider-contentwrap">
+             <div className="slider-contentwrap md:flex grid">
                 <Sliderscreen/>
                 <Slidepara />
              </div>

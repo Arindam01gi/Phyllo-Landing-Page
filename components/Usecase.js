@@ -8,7 +8,7 @@ function UseCase() {
   return (
     <div>
       <div className="flex flex-col items-center">
-        <div className="pt-28 lg:pt-36 lg:pb-0 ">
+        <div className="pt-28 lg:pt-36 lg:pb-0 lg:ml-16">
           <h1 className="font-bold text-4xl text-center">Use cases</h1>
         </div>
         <div className="use-case-grid mb-12">
