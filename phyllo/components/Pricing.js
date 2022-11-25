@@ -1,5 +1,5 @@
-import ContactButton from "./ContactButton";
-import PricingButton from "./PricingButton";
+import ContactButton from "./buttons/ContactButton";
+import PricingButton from "./buttons/PricingButton";
 
 
 function Pricing() {
