@@ -6,8 +6,10 @@ function Slidepara(){
                  <div className="mb-4 text-2xl font-bold ">
                     1
                  </div>
-                 <p className="block text-base float-left">
-                 In your app, creators are prompted to connect their accounts to platforms of choice
+                 <p className="block text-base text-left whitespace-nowrap">
+                 In your app, creators are prompted 
+                 <br />to connect their accounts to 
+                 <br />platforms of choice
                  </p>
             </div>
         </div>

@@ -2,12 +2,12 @@ import Image from "next/image";
 
 function Usecase2() {
   return (
-      <div className="use-case-block lg:mt-4 lg:ml-16 ">
+      <div className="use-case-block lg:mt-0 lg:ml-16 ml-4 ">
       <div className="md:flex ">
-        <div className="m-12 lg:m-16">
-          <div className="rounded-3xl overflow-hidden shadow-2xl ">
+        <div className="m-10  lg:ml-14 ml-2  lg:m-12">
+          <div className=" m-8 sm:pr-6">
             <Image
-              className="h-auto w-100 "
+              className="h-auto w-100  rounded-3xl overflow-hidden shadow-2xl"
               src="/overview.svg"
               width={1563}
               height={1170}
@@ -16,7 +16,7 @@ function Usecase2() {
         </div>
         
       </div>
-      <div className="mr-28">
+      <div className="mr-28 ml-12">
           <h3 className="text-4xl  text-left font-bold">
             Analyze <span className="text-blue-600 ">growth trends</span>
           </h3>

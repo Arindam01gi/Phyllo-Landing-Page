@@ -3,12 +3,12 @@ import Head from "next/head";
 
 function Button() {
   return (
-    <div className="ml-2">
+    <div className="ml-1">
       <button
         type="button"
-        className="bg-transparent  text-blue-700 font-bold text-base  py-3 px-4 border-2 border-blue-700  rounded whitespace-nowrap"
+        className=" button1 bg-transparent font-bold text-xs p-2  py-3 px-4 border-2 rounded-lg whitespace-nowrap"
       >
-        Get Access Sandbox
+        Get sandbox access
       </button>
     </div>
   );

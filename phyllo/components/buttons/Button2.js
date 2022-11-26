@@ -3,10 +3,10 @@ import Head from "next/head";
 
 function Button() {
   return (
-    <div className="ml-8">
+    <div className="ml-2">
       <button
         type="button"
-        className="text-white bg-blue-800 hover:bg-blue-800  font-medium rounded-lg text-base px-10 py-4 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700  whitespace-nowrap "
+        className=" button2 text-white bg-blue-800 hover:bg-blue-800 font-bold text-xs p-1 text-center py-3 px-5 border-2 rounded-lg  dark:bg-blue-600 dark:hover:bg-blue-700  whitespace-nowrap "
       >
        Get a Demo
       </button>
