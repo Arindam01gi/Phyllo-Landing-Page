@@ -18,7 +18,7 @@ function Navbar() {
           <div className=" flex pt-4 ">
             <div className="lg:flex hidden  ">
               <div className="flex ">
-                <div className="text-sm pl-4 pt-4 pb-4 pr-2 font-semibold">
+                <div className="text-sm pl-4 pt-4 pb-4 pr-2 font-medium">
                   Products
                 </div>
 
