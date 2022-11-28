@@ -4,17 +4,17 @@ import Actionbutton from "../buttons/Actionbutton";
 function Activate() {
   return (
     <div>
-      <div className="integration-wrapper lg:ml-48 lg:mr-48  md:flex-row block mt-12 ml-12 mb-12">
-        <div className="mt-12 lg:-ml-14">
-          <Image src="/herophoto.svg" width={453} height={552} />
+      <div className=" mt-12 grid grid-cols-1 md:grid-cols-2 container">
+        <div className=" mt-12 md:order-1 order-2 justify-end items-center max-w-xs max-h-xs">
+          <Image className="max-w-full h-auto" src="/herophoto.svg" width={453} height={552} />
         </div>
 
-        <div className="block items-center lg:mt-36 lg:pr-36 pr-24">
-          <h1 className="font-bold text-4xl">
+        <div className="block md:mt-36 lg:pl-16 md:order-2 order-1">
+          <h1 className="font-bold lg:text-3xl text-2xl max-w-3xl">
             <span className="text-blue-800">Activate and access</span> verified
             data instantly
           </h1>
-          <p className="pt-8 pb-8 text-base">
+          <p className="pt-8 pb-8 text-sm max-w-md h-auto">
             Activate any creator’s account, and get access to the creator’s
             identity, engagement, and income data on demand
           </p>

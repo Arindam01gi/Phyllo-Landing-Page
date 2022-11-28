@@ -4,8 +4,8 @@
 
 function Sliderscreen(){
        return (
-        <div className=" lg:ml-80 ml-24 ">
-            <Image className="inline-block h-auto align-middle slider-image"  src="/slider1.jpeg" width={280} height ={517}/>
+        <div className=" order-last md:order-fast ml-24 ">
+            <Image className="inline-block max-w-full h-full slider-image"  src="/slider1.jpeg" width={280} height ={517}/>
         </div>
        )
 }

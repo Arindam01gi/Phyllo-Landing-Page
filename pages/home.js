@@ -7,14 +7,16 @@ import Section4 from "../components/Section4";
 import Section5 from "../components/Section5";
 import Section6 from "../components/Section6";
 import Section7 from "../components/section7";
+import Clientsection from "../components/Clientsection";
 
 
 function home (){
     return (
-        <div className="overflow-hidden">
+        <div className="overflow-hidden wrapper">
          
          <Navbar />
          <HomeHero />
+         <Clientsection />
          <Speciality/>
          <Section3 />
          <Section4 />

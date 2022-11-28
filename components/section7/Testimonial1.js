@@ -3,7 +3,7 @@ import Image from "next/image";
 function Testimonial1() {
   return (
     <div className="ml-2 mr-2  ">
-    <div className="testimonial-slide w-slide  ">
+    <div className="testimonial-slide w-slide w-full md:w-1/2  ">
       <div>
         <Image src="/tetsimoniallogo1.png" width={112} height={112} />
       </div>

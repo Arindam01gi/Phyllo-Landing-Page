@@ -6,7 +6,7 @@ import Blueknowmore from "./buttons/Blueknowmore";
 function Section6() {
   return (
     <div className="section6-background ">
-      <div className="text-center pt-36 lg:pb-4 pb-8 top-wrapper">
+      <div className="text-center lg:pt-36 pt-28 lg:pb-4 pb-8 top-wrapper">
         <h2 className="text-4xl font-bold ">Extensive coverage</h2>
         <div className=" lg:pl-12 lg:pr-8  pl-8 pr-12">
           <p className="text-base pt-4">
