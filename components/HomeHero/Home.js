@@ -7,7 +7,7 @@ function Home() {
     <div className=" flex lg:mt-0 mt-6  ">
       <div className="">
         <div className=" lg:pt-36 md:text-left text-center ">
-          <h1 className="font-black   text-4xl mb-5 max-w-md max-h-28">
+          <h1 className="font-black  md:text-4xl text-3xl mb-5 max-w-md max-h-28">
             The universal API for creator data
           </h1>
         </div>

@@ -9,10 +9,10 @@ function Section6() {
       <div className="text-center lg:pt-36 pt-28 lg:pb-4 pb-8 top-wrapper">
         <h2 className="text-4xl font-bold ">Extensive coverage</h2>
         <div className=" lg:pl-12 lg:pr-8  pl-8 pr-12">
-          <p className="text-base pt-4">
+          <p className="md:text-base text-sm pt-4">
             Phyllo provides deep integrations to hundreds of creator platforms.
           </p>
-          <p>
+          <p className="md:text-base text-sm pt-1">
             We take care of all the heavy lifting so you can focus on building
             your product.
           </p>
